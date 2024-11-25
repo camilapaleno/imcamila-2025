@@ -128,6 +128,15 @@ body {
   margin-top: 100px;
 }
 
+.header a {
+  text-decoration: none;
+  color: var(--text);
+  cursor: pointer;
+}
+.header a:hover {
+  color: #f7ccbb;
+}
+
 .header .title h1{
   font-size: 48px;
   font-weight: 300;
@@ -138,6 +147,21 @@ body {
   max-width: 600px;
   text-align: right;
   font-size: 12px;
+}
+
+@media (max-width: 640px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header .title h1{
+    margin-bottom: 1rem;
+  }
+.header .description p{
+
+  text-align: left;
+
+}
 }
 
 .scroll {
@@ -159,6 +183,7 @@ body {
   aspect-ratio: 1/1;
   border-radius: 5px;
   margin: 10px;
+  cursor: pointer;
 }
 
 .cards ul li.card {
@@ -182,6 +207,7 @@ body {
   height: 100%;
   position: relative;
   display: block;
+  cursor: pointer;
 }
 
 .cards ul li.card a .card_preview, .cards ul li.card a .card_text{
@@ -474,6 +500,7 @@ body {
   padding: 10px;
   margin: .5%;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .portfolio__container ul li:hover{
@@ -488,6 +515,7 @@ body {
   border: none;
   background-color: transparent;
   text-align: left;
+  cursor: pointer;
 }
 
 .portfolio__container ul li .card_preview {
@@ -698,6 +726,7 @@ body {
   background-color: transparent;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .frame button:hover { 
@@ -1051,6 +1080,7 @@ body {
   margin-top: 1rem; 
   display: inline-block;
   width: fit-content;
+  cursor: pointer;
 }
 
 .home .box a:hover{

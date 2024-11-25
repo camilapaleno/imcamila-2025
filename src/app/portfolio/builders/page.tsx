@@ -38,7 +38,7 @@ function Builders() {
       <div className="portfolio">
 
         {Header({
-            title: 'Web Builders',
+            title: 'web builders',
             description: 'Using platforms like Squarespace, I can create professional, visually appealing websites quickly. These platforms offer drag-and-drop functionality and pre-designed templates, so after Ive set everything up, youll be able to These platforms are more budget-friendly and ideal for businesses or individuals looking to establish a professional online presence without needing advanced features or custom development. While Squarespace provides many design and layout options, customization is limited to what the platform offers. It’s great for small businesses, portfolios, blogs, or personal websites, where basic functionality and aesthetics are key. Hosting, domain management, security, and basic SEO tools are built-in, so you can focus on your content without worrying about the technical side.',
         })}
 

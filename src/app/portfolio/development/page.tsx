@@ -6,6 +6,7 @@ import Project from "@/components/Project";
 import { useState, useEffect } from 'react';
 import algoPreview from "@/image/preview-algo.jpg";
 import comingOverlay from "@/image/coming-soon-overlay.png"
+import beechjetPreview from "@/image/preview-beechjet2.png";
 
 function Development() {
   const [filter, setFilter] = useState("all");
@@ -39,46 +40,14 @@ function Development() {
       <div className="portfolio">
 
         {Header({
-            title: 'Web Development',
+            title: 'frontend dev. for web apps',
             description: 'Complete Flexibility: When your project demands more control over design, functionality, or performance, I provide custom web development using JavaScript libraries like Next.js. This approach allows for tailored features, unique layouts, and specific integrations that match your exact requirements. Advanced Performance & SEO: Technologies like Next.js enable features like server-side rendering (SSR), static site generation (SSG), and API integration, making your site faster and more SEO-friendly. These are important factors for businesses that rely heavily on web traffic and user experience. Scalable Solutions: If your business is growing or requires advanced functionality (e.g., e-commerce, web apps, or complex workflows), custom development is the best option. It’s built to scale and can handle large amounts of traffic or complex user interactions. Ongoing Support: Custom development projects often require ongoing updates, maintenance, and optimization. I offer support for future enhancements, ensuring your website stays current as your business evolves.',
         })}
 
-{/* <div className="portfolio__labels">
-          <button 
-            active={filter === "all"} 
-            onClick={() => setFilter("all")}
-            className={filter === "all" ? 'selected-label' :'default-label'}
-          >
-            All
-          </button>
-          <button
-            active={filter === "vanilla javascript"}
-            onClick={() => setFilter("vanilla javascript")}
-            className={filter === "vanilla javascript" ? 'selected-label' :'default-label'}
-          >
-            Vanilla JS
-          </button>
-          <button
-            active={filter === "react"}
-            onClick={() => setFilter("react")}
-            className={filter === "react" ? 'selected-label' :'default-label'}
-          >
-            React.JS
-          </button>
-          <button
-           
-            active={filter === "3d"}
-            onClick={() => setFilter("3d")}
-            className={filter === "3d" ? 'selected-label' :'default-label'}
-          >
-            3D
-          </button>
-        </div> */}
-
         <div className="portfolio__container">
           <ul>
-            <li className='card'>
-                  <button
+          {/* <li className='card'>
+                  <div
                   
                     className='card_path' 
                     >
@@ -90,9 +59,25 @@ function Development() {
                     </div>
                     
                     <span>Next.js, Typescript</span>
-                  </button>
+                  </div>
 
               </li> 
+              <li className='card'>
+                  <div
+                  
+                    className='card_path' 
+                    >
+                    <h1>Beechjet</h1>
+                    <p>Website for Los Angeles indie rock band</p>
+                    <div className="card_preview">
+                      <img src={beechjetPreview.src} alt="beechjet4000" />
+                      <img src={comingOverlay.src} alt="beechjet4000" />
+                    </div>
+                    
+                    <span>Next.js, Typescript</span>
+                  </div>
+
+              </li>  */}
             {projects.map(item =>
               item.filtered === true ? 
               <li key={item.name} className='card'>

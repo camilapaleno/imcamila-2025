@@ -21,10 +21,57 @@ import taskPreview from "@/image/preview-taskhelper.jpg";
 import taskOverlay from "@/image/preview-taskhelper-hover.gif";
 import storyPreview from "@/image/preview-storyteller.jpg";
 import storyOverlay from "@/image/preview-storyteller-hover.gif";
-
+import marsyPreview from "@/image/preview-marsy.jpg";
+import beechjetPreview from "@/image/preview-beechjet2.png";
 
 export const development = [
 
+
+  {
+    name: "Devon Donis - Portfolio for a videographer & filmmaker in Los Angeles",
+    title: "Devon Donis",
+    short: "Portfolio for a videographer & filmmaker",
+    long: "A portfolio made for videographer Devon Donis with HTML & CSS.",
+    tools: "HTML, CSS",
+    preview: devonPreview,
+    overlay: devonOverlay,
+    category: ["all", "vanilla javascript"],
+    website: 'none',
+    github: 'none',
+    youtube: 'none',
+    gallery: 'none',
+    embed: 'https://devondonisdp.github.io/devondonisdp/index.html',
+  },
+  {
+    name: "Mariana (MarsBars) - Artist in Los Angeles",
+    title: "Mariana",
+    short: "Zine portfolio",
+    long: "A portfolio made for artist Mariana with Next.js.",
+    tools: "Next.js, Typscript",
+    preview: marsyPreview,
+    overlay: overlay,
+    category: ["all", "react"],
+    website: 'https://camilapaleno.github.io/marsy.psd/',
+    github: 'none',
+    youtube: 'none',
+    gallery: 'none',
+    embed: 'https://camilapaleno.github.io/marsy.psd/',
+  },
+  // {
+  //   name: "Beechjet - Band in Los Angeles",
+  //   title: "Beechjet",
+  //   short: "Website for Los Angeles indie rock band",
+  //   long: "A portfolio made for a band with HTML & CSS.",
+  //   tools: "HTML, CSS",
+  //   preview: beechjetPreview,
+  //   overlay: overlay,
+  //   category: ["all", "vanilla javascript"],
+  //   website: 'none',
+  //   github: 'none',
+  //   youtube: 'none',
+  //   gallery: 'none',
+  //   embed: 'https://devondonisdp.github.io/devondonisdp/index.html',
+  // },
   {
     name: "Storyteller AI",
     title: "Personal Project",
@@ -56,21 +103,6 @@ export const development = [
     youtube: 'https://www.youtube.com/embed/pBBF7x7sRLo?si=_zpFWkdso_zY5m8k&amp;controls=0',
     gallery: 'none',
     embed: 'none',
-  },
-  {
-    name: "Devon Donis - Portfolio for a videographer & filmmaker in Los Angeles",
-    title: "Devon Donis",
-    short: "Portfolio for a videographer & filmmaker",
-    long: "A portfolio made for videographer Devon Donis with HTML & CSS.",
-    tools: "HTML, CSS",
-    preview: devonPreview,
-    overlay: devonOverlay,
-    category: ["all", "vanilla javascript"],
-    website: 'none',
-    github: 'none',
-    youtube: 'none',
-    gallery: 'none',
-    embed: 'https://devondonisdp.github.io/devondonisdp/index.html',
   },
 
     {

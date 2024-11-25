@@ -55,7 +55,7 @@ export default function Home() {
 
       </section>
 
-      <section>
+      <section id="choose">
         <div className="boxes">
           <div className="box">
             <img className="badge" src={boogie.src}/>
@@ -69,7 +69,7 @@ export default function Home() {
                 <Image src={squarespace} width={200} alt=""/>
               </div>
               <div>
-                <Link href='/portfolio/builders' scroll={false}>see portfolio</Link>
+                <Link href='/portfolio/builders' scroll={true}>see portfolio</Link>
               </div>              
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function Home() {
                 <Image src={react} width={50} alt=""/>
             </div>
             <div>
-              <Link href='/portfolio/development' scroll={false}>see portfolio</Link>
+              <Link href='/portfolio/development' scroll={true}>see portfolio</Link>
             </div>            
           </div>
         </div>
@@ -107,13 +107,13 @@ export default function Home() {
                 <line className="st0" x1="14.24" y1="210.39" x2="214.41" y2="15.08"/>
                 </svg> 
               </a>
-              <a href="https://www.instagram.com/artbycameela/" target="_blank">
+              {/* <a href="https://www.instagram.com/artbycameela/" target="_blank">
                 instagram
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 227.71 225.85">
                 <polyline className="st0" points="14.24,15.08 214.41,15.08 214.41,210.39 "/>  
                 <line className="st0" x1="14.24" y1="210.39" x2="214.41" y2="15.08"/>
               </svg>
-              </a>
+              </a> */}
             </div>            
           </div>
         </div>
