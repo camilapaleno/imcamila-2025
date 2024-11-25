@@ -4,12 +4,13 @@ import {development} from '@/data/development';
 import Header from "@/components/Header";
 import Project from "@/components/Project";
 import { useState, useEffect } from 'react';
-import algoPreview from "@/image/preview-algo.jpg";
-import comingOverlay from "@/image/coming-soon-overlay.png"
-import beechjetPreview from "@/image/preview-beechjet2.png";
+// import algoPreview from "@/image/preview-algo.jpg";
+// import comingOverlay from "@/image/coming-soon-overlay.png"
+// import beechjetPreview from "@/image/preview-beechjet2.png";
 
 function Development() {
-  const [filter, setFilter] = useState("all");
+  const [filter, ] = useState("all");
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [projects, setProjects] = useState<any[]>([]);
 
   useEffect(() => {

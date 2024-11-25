@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from 'next/link'
-import styles from "@/page.module.css";
 import '@/app/globals.css';
 import squarespace from "@/image/squarespace_logo.png";
 import nextjs from "@/image/nextjs_logo.png";
@@ -17,7 +16,7 @@ import hi from "@/image/wavey.gif";
 import boogie from "@/image/dancey.gif";
 import examples from "@/image/examples.jpg";
 import { motion } from "motion/react"
-import { easeIn, easeInOut } from "motion";
+import { easeInOut } from "motion";
 
 export default function Home() {
 
@@ -61,7 +60,7 @@ export default function Home() {
             <img className="badge" src={boogie.src}/>
             <div>
               <h3>web builders for businesses and e-commerce stores</h3>
-              <p>Ideal if you're looking for a quick, professional website without the need for custom coding. With drag-and-drop tools and pre-designed templates, we can launch your site quickly and efficiently. Web builders work well for businesses ranging from independents and small businesses, to large e-commerce stores that need an attractive, functional site without extensive customization. These platform subscriptions include hosting, domain management, and basic SEO tools.</p>
+              <p>Ideal if you&apos;re looking for a quick, professional website without the need for custom coding. With drag-and-drop tools and pre-designed templates, we can launch your site quickly and efficiently. Web builders work well for businesses ranging from independents and small businesses, to large e-commerce stores that need an attractive, functional site without extensive customization. These platform subscriptions include hosting, domain management, and basic SEO tools.</p>
             </div>
             <div>
               <div className="tools">

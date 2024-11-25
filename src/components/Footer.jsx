@@ -1,6 +1,4 @@
-import Link from 'next/link'
 import '@/app/globals.css';
-import cam from '@/image/cam.png'
 
 function Footer() {
 

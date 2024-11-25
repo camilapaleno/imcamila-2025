@@ -7,7 +7,8 @@ import Project from "@/components/Project";
 
 
 function Builders() {
-  const [filter, setFilter] = useState("all");
+  const [filter, ] = useState("all");
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [projects, setProjects] = useState<any[]>([]);
 
   useEffect(() => {

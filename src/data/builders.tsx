@@ -1,4 +1,3 @@
-import overlay from "@/image/preview-overlay.png";
 import bwSitePreview from "@/image/preview-bw_site2.png";
 import bwSiteOverlay from "@/image/preview-bw_site-hover.gif";
 import sagePreview from "@/image/preview-sagesocial4.jpg";

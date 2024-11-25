@@ -1,6 +1,5 @@
-import Link from 'next/link'
 import '@/app/globals.css';
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 const Project = ({ data, closeModal }) => {
   
@@ -59,7 +58,7 @@ const Project = ({ data, closeModal }) => {
         {data.gallery === 'none' ? null :
             <div className="gallery-wrapper">
                 {data.gallery.map((image) =>
-                   <img src={image}/> 
+                   <img key={image} src={image}/> 
                 )}
             </div>    
         }

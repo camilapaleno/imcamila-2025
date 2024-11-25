@@ -8,21 +8,18 @@ import neiHomepageOverlay from "@/image/preview-nei_homepage-overlay.png";
 import devonPreview from "@/image/preview-devon2.png";
 import devonOverlay from "@/image/preview-devon-hover.gif";
 import blenderOverlay from "@/image/preview-blender-overlay.png";
-import deeperPreview from "@/image/preview-divedeeper.png";
-import deeperOverlay from "@/image/preview-divedeeper-hover.gif";
+
 import codestackPreview from "@/image/preview-codestack.png";
 import codestackOverlay from "@/image/preview-codestack-hover.gif";
-import linkedPreview from "@/image/preview-linked.png";
-import linkedOverlay from "@/image/preview-linked-hover.gif";
-import mangoPreview from "@/image/preview-mango.png";
+
 import gradientPreview from "@/image/preview-gradientdesk.png";
-import port21Preview from "@/image/preview-2022.png";
+
 import taskPreview from "@/image/preview-taskhelper.jpg";
 import taskOverlay from "@/image/preview-taskhelper-hover.gif";
 import storyPreview from "@/image/preview-storyteller.jpg";
 import storyOverlay from "@/image/preview-storyteller-hover.gif";
 import marsyPreview from "@/image/preview-marsy.jpg";
-import beechjetPreview from "@/image/preview-beechjet2.png";
+// import beechjetPreview from "@/image/preview-beechjet2.png";
 
 export const development = [
 
